@@ -13,6 +13,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    transition: all 0.9s;
 }
 
 body,html {
@@ -79,6 +80,10 @@ body,html {
    text-decoration: none;
    color: white;
    font-weight: 500;
+}
+
+.home a {
+    color: var(--cor2);
 }
 
 main {
