@@ -82,6 +82,10 @@ body,html {
    font-weight: 500;
 }
 
+ .cambio a {
+    color: var(--cor2);
+}
+
 section {
     display: flex;
     flex-direction: column;
