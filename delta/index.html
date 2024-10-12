@@ -21,28 +21,35 @@
             <ul class="nav-list">
                 <li><a href="../home/index.html">Home</a></li>
                 <li><a href="../desconto/index.html">Desconto</a></li>
-                <li class="cambio"><a href="/cambio/index.html">Câmbio</a></li>
-                <li><a href="../delta/index.html">Delta</a></li>
+                <li><a href="../cambio/index.html">Câmbio</a></li>
+                <li class="delta"><a href="index.html">Delta</a></li>
             </ul>
         </nav>
     </header>
     <main>
-       <form onsubmit="converter(event)">
-           <section>
-                <h1>Digite o Valor em Reais</h1>
-                <span id="dolar">
+        <form onsubmit="calcular(event)">
+            <section>
+                 <h1>Digite o Valor de A,B,C</h1>
+                 </span>
+                 <div class="a">
+                     <label for="a">A</label>
+                     <input type="number" name="a" id="a" required>
+                 </div>
+                 <div class="b">
+                    <label for="b">B</label>
+                    <input type="number" name="b" id="b" required>
+                 </div>
+                 <div class="c">
+                    <label for="c">C</label>
+                    <input type="number" name="c" id="c" required>
+                 </div>
+                 <input type="submit" value="Calcular">
 
-                </span>
-                <div class="dolar">
-                    <label for="reais"> <img src="assets/imgs/brazilian-real-sign-solid.svg" alt="icon dolar"></label>
-                    <input type="number" name="reais" id="reais" required>
-                </div>
-                <input type="submit" value="Calcular">
-                <div class="resposta">
-
-                </div>
-           </section>
-       </form>
+                 <div class="resposta">
+ 
+                 </div>
+            </section>
+        </form>
     </main>
 </body>
 </html>
