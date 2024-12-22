@@ -82,6 +82,11 @@ body,html {
    font-weight: 500;
 }
 
+.home img {
+    width: 40px;
+    height: 20px;
+}
+
  .cambio a {
     color: var(--cor2);
 }
